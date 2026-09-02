@@ -51,11 +51,12 @@ body {
 }
 
 .box {
-  width: 43rem;
-  max-width: 43rem;
+  width: 42rem;
+  max-width: 42rem;
   background-color: var(--color-background-500);
   border-radius: 0.9rem;
-  overflow: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
   position: relative;
 }
 
@@ -139,8 +140,8 @@ body {
 .list {
   list-style: none;
   padding: 0.8rem 0;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 .list-watched {
