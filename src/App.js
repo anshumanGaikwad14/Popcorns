@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import StarRating from "./StarRating";
 
 const tempMovieData = [
@@ -54,7 +54,7 @@ const average = (arr) =>
 const KEY = "94c28823";
 
 export default function App() {
-  const [query, setQuery] = useState("interstellar");
+  const [query, setQuery] = useState("");
   const [movies, setMovies] = useState([]);
   const [watched, setWatched] = useState([]);
   const [error, setError] = useState("");
